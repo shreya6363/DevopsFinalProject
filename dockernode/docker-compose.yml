@@ -4,7 +4,7 @@ services:
     stdin_open: true
     environment:
       - NAMES=true
-    image: kartiksj/nodejs:latest  
+    image: shreya6363/nodejs:latest  
     restart: always
     # build:
     #    context: .
