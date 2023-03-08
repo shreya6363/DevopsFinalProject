@@ -9,7 +9,7 @@ services:
     # build:
     #    context: .
     #    dockerfile: Dockerfile
-    #   image: kartiksj/nodejs:latest
+    #   image: shreya6363/nodejs:latest
     ports:
       - '3000:3000'
     volumes:
@@ -17,7 +17,7 @@ services:
       - .:/app
   tests:
     stdin_open: true
-    image: kartiksj/nodejs:latest  
+    image: shreya6363/nodejs:latest  
     restart: always
     # build:
     #   context: .
